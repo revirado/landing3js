@@ -1,7 +1,4 @@
---- landing-personal/src/components/hero/geometries.ts (原始)
 
-
-+++ landing-personal/src/components/hero/geometries.ts (修改后)
 import { useRef, useMemo } from 'react';
 import * as THREE from 'three';
 import {

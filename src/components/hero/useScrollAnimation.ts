@@ -1,7 +1,4 @@
---- landing-personal/src/components/hero/useScrollAnimation.ts (原始)
 
-
-+++ landing-personal/src/components/hero/useScrollAnimation.ts (修改后)
 import { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';

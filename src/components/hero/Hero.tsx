@@ -1,7 +1,4 @@
---- landing-personal/src/components/hero/Hero.tsx (原始)
 
-
-+++ landing-personal/src/components/hero/Hero.tsx (修改后)
 import { useRef, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import * as THREE from 'three';

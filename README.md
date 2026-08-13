@@ -1,7 +1,3 @@
---- landing-personal/README.md (原始)
-
-
-+++ landing-personal/README.md (修改后)
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.

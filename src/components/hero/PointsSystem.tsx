@@ -1,7 +1,4 @@
---- landing-personal/src/components/hero/PointsSystem.tsx (原始)
 
-
-+++ landing-personal/src/components/hero/PointsSystem.tsx (修改后)
 import { useRef, useMemo, useState } from 'react';
 import * as THREE from 'three';
 import { useFrame, useThree } from '@react-three/fiber';

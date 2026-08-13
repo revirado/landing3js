@@ -1,7 +1,3 @@
---- landing-personal/tsconfig.json (原始)
-
-
-+++ landing-personal/tsconfig.json (修改后)
 {
   "files": [],
   "references": [

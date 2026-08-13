@@ -1,7 +1,4 @@
---- landing-personal/src/components/hero/settings.ts (原始)
 
-
-+++ landing-personal/src/components/hero/settings.ts (修改后)
 // ============================================
 // SETTINGS DEL HERO — AJUSTAR AQUÍ
 // ============================================
