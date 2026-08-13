@@ -1,15 +1,14 @@
 
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import * as THREE from 'three';
 import {
   CAMERA_FOV,
   CAMERA_POSITION,
-  CAMERA_LOOK_AT,
   BACKGROUND_COLOR,
   SCROLL_HEIGHT,
 } from './settings';
-import { useScrollProgress, useRotation, ScrollPhase } from './useScrollAnimation';
+import { useScrollProgress, useRotation, type ScrollPhase } from './useScrollAnimation';
 import { usePlaneGeometry, useCubeGeometry, getPointCount } from './geometries';
 import { PointsSystem } from './PointsSystem';
 

@@ -1,5 +1,5 @@
 
-import { useRef, useMemo, useState } from 'react';
+import { useRef, useMemo } from 'react';
 import * as THREE from 'three';
 import { useFrame, useThree } from '@react-three/fiber';
 import {
@@ -8,9 +8,8 @@ import {
   POINT_SIZE_ATTENUATION,
   POINT_TRANSPARENT,
   POINT_DEPTH_WRITE,
-  SCROLL_PHASES,
 } from './settings';
-import { getPhaseProgress, lerpPositions, ScrollPhase } from './useScrollAnimation';
+import { getPhaseProgress, lerpPositions, type ScrollPhase } from './useScrollAnimation';
 
 interface PointsSystemProps {
   assembledPositions: Float32Array;
@@ -34,7 +33,7 @@ export function PointsSystem({
 }: PointsSystemProps) {
   const pointsRef = useRef<THREE.Points>(null);
   const positionsRef = useRef<Float32Array | null>(null);
-  const { camera } = useThree();
+  useThree();
 
   // Crear geometría inicial
   const geometry = useMemo(() => {
